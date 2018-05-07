@@ -16,7 +16,7 @@ Then execute the script:
 
 ### Donations ###
 
-Bitcoin: 1CtjiQP7eVp1NYYb64t6FiqhXffeum4R73
-Ethereum (No token): 0x8155aB728b2D36Cc9281f952fE18B3F9b34fb3Af
-Litecoin: LToDL6LSPqmiJn75hAZFuvX9NmZRtiw39Y
-Magnet: MYrnXKs2mQeEVW5JAa8Fcytf2cE8f7WzxM
+ * Bitcoin: 1CtjiQP7eVp1NYYb64t6FiqhXffeum4R73
+ * Ethereum (No token): 0x8155aB728b2D36Cc9281f952fE18B3F9b34fb3Af
+ * Litecoin: LToDL6LSPqmiJn75hAZFuvX9NmZRtiw39Y
+ * Magnet: MYrnXKs2mQeEVW5JAa8Fcytf2cE8f7WzxM
