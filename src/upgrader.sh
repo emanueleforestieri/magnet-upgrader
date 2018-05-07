@@ -24,7 +24,7 @@ export GREEN='\033[1;92m'
 export RED='\e[0;31m'
 export NORMAL='\033[1;00m'
 
-export DIRECTORY=$PWD + '/magnet'
+export DIRECTORY="`pwd`/magnet"
 
 err_echo () #echo on stderr
 {
