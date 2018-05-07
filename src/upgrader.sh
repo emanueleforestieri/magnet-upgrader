@@ -119,7 +119,9 @@ if [ `id -u` -eq 0 ]; then #if it is run as root
                         fi
                 fi
         else 
-                err
+                err "Directory error"
+                exit 1
+        fi
 else
         err "R U Drunk Man?! This script must be run as root!"
         exit 1
