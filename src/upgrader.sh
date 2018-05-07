@@ -57,7 +57,7 @@ if [ `id -u` -eq 0 ]; then #if it is run as root
                 # Waiting until the service has stopped
                 sleep 3
                 PROCESSID=$(pidof magnetd)
-                if [ $PROCESSID -gt 0 ]; then
+                if [ $PROCESSID ]; then
                         err "Failed to stop service"
                         exit 1
                 else
@@ -111,7 +111,7 @@ if [ `id -u` -eq 0 ]; then #if it is run as root
                         # Waiting until the service has started
                         sleep 3
                         PROCESSID=$(pidof magnetd)
-                        if [ $PROCESSID -gt 0 ]; then 
+                        if [ $PROCESSID ]; then 
                                 ok "Magnet service started"
                         else
                                 err "Failed to start magnet service"
