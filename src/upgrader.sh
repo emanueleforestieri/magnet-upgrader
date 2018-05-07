@@ -24,7 +24,7 @@ export GREEN='\033[1;92m'
 export RED='\e[0;31m'
 export NORMAL='\033[1;00m'
 
-export DIRECTORY='$PWD'
+export DIRECTORY=$PWD
 
 err_echo () #echo on stderr
 {
