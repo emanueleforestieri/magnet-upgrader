@@ -55,7 +55,7 @@ if [ `id -u` -eq 0 ]; then #if it is run as root
                 ./magnet/magnetd stop > /dev/null 2>&1
 
                 # Waiting until the service has stopped
-                sleep 3
+                sleep 5
                 PROCESSID=$(pidof magnetd)
                 if [ $PROCESSID ]; then
                         err "Failed to stop service"
@@ -106,10 +106,10 @@ if [ `id -u` -eq 0 ]; then #if it is run as root
 
                         inf "Starting magnet service..."
                         chmod +x magnetd
-                        ./magnetd & > /dev/null 2>&1
+                        ./magnetd > /dev/null 2>&1 &
                         
                         # Waiting until the service has started
-                        sleep 3
+                        sleep 5
                         PROCESSID=$(pidof magnetd)
                         if [ $PROCESSID ]; then 
                                 ok "Magnet service started"
